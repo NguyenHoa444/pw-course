@@ -1,0 +1,8 @@
+Steps                              | Local              | Working directory  | Staging area | Repository
+--------------------------------------------------------------------------------------------------------------------------
+a. Tạo 3 files                     | file1,file 2,file 3|                    |              |
+b. Chạy git init                   |                    | file1, file2, file3|              |
+c. Chạy git commit -m"Init Project"|                    | file1, file2, file3|              |
+d. Chạy git add file1              |                    | file2, file3       | file1        |
+e. Chạy git commit -m"add file1"   |                    | file2, file3       |              | file1
+f. Chạy git commit -m"add file"    |                    | file2, file3       |              | file1

@@ -1,0 +1,4 @@
+git init // Khởi tạo git
+git add <filename> // Add file vào staging
+git add . // Add các files còn lại vào staging
+git commit -m"message" // Commit files trước khi push lên github
