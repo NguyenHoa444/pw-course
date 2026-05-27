@@ -1,0 +1,29 @@
+1. Git commit --amend
+- Mục đích: Mở trình soạn thảo VIM để edit commit
+- Cách chạy lệnh:
+B1: Git commit --amend
+B2: Nhấn phím i để bắt đầu edit
+B3: Edit message commit
+B4: Nhấn phím ESC
+B5: Nhập :wq để thoát chế độ edit -> enter
+
+2. Git commit --amend -m"message"
+- Mục đích: Sửa message commit trực tiếp
+- VD: 
+git add file1
+git commit -m" commit 1"
+git commit --amend -m"edit commit 1"
+
+3. Git restore --staged <file>
+- Mục đích: Di chuyển file từ vùng staging quay về vùng working directory
+- VD:
+git add file2
+git restore --staged file2
+
+4. Git reset HEAD~1
+- Mục đích: Di chuyển file từ vùng repository về working directory
+- VD: 
+git add file3
+git commit -m" commit 3"
+git reset HEAD~1
+
