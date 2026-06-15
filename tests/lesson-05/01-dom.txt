@@ -1,0 +1,17 @@
+1. Cấu trúc DOM cơ bản của 1 trang web gồm các thẻ:
+
+<html>	Cấu trúc của trang, chứa toàn bộ nội dung trang web
+<head>	Chứa metadata: Tiêu đề, hiển thị google (không hiển thị trực tiếp)
+<body>	Nội dung của website
+<div>	Block/container
+<span>	Thẻ định dạng văn bản
+
+2. Cấu trúc html của 1 bảng
+
+<table>	Tạo bảng
+<thead>	Chứa phần đầu bảng
+<tbody>	Chứa nội dung chính
+<tfoot>	Chứa phần chân bảng
+<tr>	Tạo hàng
+<th>	Tạo tiêu đề
+<td>	Tạo ô dữ liệu
