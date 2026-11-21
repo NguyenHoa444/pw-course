@@ -1,0 +1,6 @@
+Ý nghĩa của các câu lệnh:
+- git init: Khởi tạo repo local
+- git remote add origin <url>: liên kết repo local với repo trên Github
+- git add .: thêm tất cả các file mới hoặc file chỉnh sửa vào vùng staging
+- git commit -m"commit 1": commit file tạo ra các phiên bản
+- git push origin main: push các file lên nhánh main của repo trên Github
